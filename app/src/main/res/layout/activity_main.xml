@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4A55A2"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:padding="20dp"
+        android:id="@+id/weight"
+        >
+
+        <TextView
+            android:id="@+id/wt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/bellota_text"
+            android:text="@string/text_views"
+            android:textColor="#C5DFF8"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/enter_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wt"
+            android:fontFamily="sans-serif"
+            android:textColor="#C5DFF8"
+            android:gravity="center"
+            android:hint="@string/edit_text2"
+            android:textColorHint="#829BB6"
+            android:textSize="28sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+       android:padding="20dp"
+        android:id="@+id/height"
+
+        android:layout_below="@id/weight">
+
+        <TextView
+
+            android:id="@+id/ht"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/bellota_text"
+            android:text="@string/height_text"
+            android:textColor="#C5DFF8"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/enter_height"
+            android:gravity="center"
+            android:hint="@string/edit_text"
+            android:textSize="28sp"
+            android:textColor="#C5DFF8"
+            android:textColorHint="#829BB6"
+            android:layout_below="@id/ht"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bts"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/bellota_text"
+        android:text="@string/text_result"
+        android:textColor="#8AD6FF"
+        android:textSize="24sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/result"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#417CEA"
+        android:fontFamily="@font/bellota_text"
+        android:id="@+id/nextB"
+        android:text="@string/okay"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/bts"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/height"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#417CEA"
+        android:fontFamily="@font/bellota_text"
+        android:text="@string/buttons_cal"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+</RelativeLayout>

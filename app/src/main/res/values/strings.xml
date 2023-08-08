@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">bmi</string>
+    <string name="text_views">Enter Your Weight</string>
+    <string name="edit_text">(in meters)</string>
+    <string name="edit_text2">(in kgs)</string>
+    <string name="height_text">Enter Your Height</string>
+    <string name="buttons_cal">Calculate</string>
+    <string name="text_result">RESULT</string>
+    <string name="mains">YOU ARE OVERWEIGHT</string>
+    <string name="okay">NEXT</string>
+    <string name="first_box">IF UNDERWEIGHT THEN EAT IN CALORIE SURPLUS</string>
+    <string name="second_box">IF NORMAL THEN NO WORRIES</string>
+    <string name="third_box">IF OVERWEIGHT THEN EAT IN CALORIE DEFICIT</string>
+
+</resources>
